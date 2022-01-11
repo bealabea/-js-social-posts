@@ -118,7 +118,7 @@ const likeButtons = document.querySelectorAll(".like-button"); /* con querySelec
 let idLiked = []; /* creo un array vuoto dove inserire gli id dei post ai quali ho messo like*/
 
 for(let i=0; i< likeButtons.length; i++){ /* creo un ciclo all'interno della lista di elementi con la classe like-button*/
-    likeButtons[i].addEventListener("click", function () { /* creo un evento click ad ogni button*/
+likeButtons[i].addEventListener("click", function (e) { e.preventDefault() /* creo un evento click ad ogni button*/
         
         if(likeButtons[i].classList.contains('like-button--liked')){ /* SE il button contiene la classe like-button--liked, quando lo clicco la classe viene rimossa e la proprietà like del rispettivo oggetto viene decrementata*/
             posts[i].like--; /* decremento la proprietà like dell'oggetto ciclato*/
