@@ -55,27 +55,27 @@ let posts = [
   {
     postId: 1,
     authorName: "Marco Marchi",
-    authorPhoto: "https://unsplash.it/300/300?image=15",
+    authorPhoto: "https://images.unsplash.com/photo-1641207455875-6a55841732f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     postDate: "01-15-2022",
     postText:
       "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias",
-    postImage: "https://unsplash.it/600/300?image=171",
-    like: 25
+    postImage: "https://images.unsplash.com/photo-1641946320881-3b8442ba482a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    like: 304
   },
   {
     postId: 2,
     authorName: "Pino Pini",
-    authorPhoto: "https://unsplash.it/300/300?image=15",
+    authorPhoto: "https://images.unsplash.com/photo-1641824780302-d918ddc3ba08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     postDate: "01-20-2022",
     postText:
       "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias",
-    postImage: "https://unsplash.it/600/300?image=171",
-    like: 25
+    postImage: "https://images.unsplash.com/photo-1641924875397-5324016b96bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    like: 2405
   },
   {
     postId: 3,
     authorName: "Giorgio Giorgetti",
-    authorPhoto: "https://unsplash.it/300/300?image=15",
+    authorPhoto: "https://images.unsplash.com/photo-1640952891722-d340f4f19adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
     postDate: "02-10-2022",
     postText:
       "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias",
@@ -84,11 +84,11 @@ let posts = [
   {
     postId: 4,
     authorName: "Rosa Rossi",
-    authorPhoto: "https://unsplash.it/300/300?image=15",
+    authorPhoto: "https://images.unsplash.com/photo-1641391503184-a2131018701b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     postDate: "02-15-2022",
     postText:
       "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias",
-      like: 255
+      like: 36
   },
   {
     postId: 5,
@@ -98,7 +98,7 @@ let posts = [
     postText:
       "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias",
     postImage: "https://unsplash.it/600/300?image=171",
-    like: 2555
+    like: 202
   },
 ];
 
